@@ -23,7 +23,7 @@ em, strong{
     background-color: #B2D6FF;
     display: inline;
 }
-div{
+.button{
   color: #FFF;
   background-color: #5995DA;
   font-weight: bold;
@@ -34,4 +34,12 @@ div{
   width: 200px;
   box-sizing: border-box;
   margin: 20px auto;
+}
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
+}
+.page{
+  width: 600px;
+  margin: 0 auto;
 }
