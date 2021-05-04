@@ -3,6 +3,7 @@ h1, p{
 }
 h1{
     padding: 50px;
+    border: 1px solid #5D6063;
 }
 p{
     padding: 20px 10px; /* Vertical Horizontal*/
