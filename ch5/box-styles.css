@@ -43,3 +43,7 @@ em, strong{
   width: 600px;
   margin: 0 auto;
 }
+.page > p:first-of-type{
+  color: #7e8184;
+  font-style: italic;
+}
