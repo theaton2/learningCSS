@@ -1,4 +1,4 @@
-.synopsis{
+p:first-of-type{
   color: #7E8184;
   font-style: italic;
   
@@ -50,6 +50,10 @@ a:visited:active {
   font-style: italic;
   background-color: #EEB75A;    /* Yellow */
 }
+
+#button-2 {
+  color: #5D6063;
+}
 .call-to-action:hover,
 .call-to-action:visited:hover {
   background-color: #F5CF8E;     /* Light yellow */
@@ -58,4 +62,29 @@ a:visited:active {
 .call-to-action:active,
 .call-to-action:visited:active {
   background-color: #EEB75A;     /* Yellow */
+}
+p:last-of-type {
+  margin-bottom: 50px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+li{
+  color: white;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a {
+  color: #EEB75A;
+}
+li a:hover {
+  background-color: #111;
 }
